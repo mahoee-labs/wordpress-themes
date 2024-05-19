@@ -1,0 +1,15 @@
+/*
+Theme Name: Mahoee Parking
+Theme URI: https://github.com/mahoee-labs/wordpress-themes/
+Author: Mahoee
+Author URI: http://mahoee.com/
+Description: Base empty theme to start new sites to be built from scratch. The idea of this theme is to reduce the number of poluting elements in your base theme. 
+Version: 0.4
+License: MIT License
+License URI: https://opensource.org/licenses/MIT
+Text Domain: mahoee-parking
+*/
+
+body {
+  background: #21759b;
+}

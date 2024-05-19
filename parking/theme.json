@@ -1,0 +1,93 @@
+{
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "color": "#0A0A0A",
+          "name": "Off Black",
+          "slug": "off-black"
+        },
+        {
+          "color": "#F2F2F2",
+          "name": "Off White",
+          "slug": "off-white"
+        },
+        {
+          "color": "#1D38AF",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "color": "#928BB7",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "color": "#FBF7FF",
+          "name": "Light",
+          "slug": "light"
+        },
+        {
+          "color": "#E8D5B5",
+          "name": "Alternative",
+          "slug": "alternative"
+        },
+        {
+          "color": "#1D38AF",
+          "name": "Dark",
+          "slug": "dark"
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "840px",
+      "wideSize": "1100px"
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "sans-serif",
+          "name": "Default Sans Serif",
+          "slug": "default-sans-serif"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var:preset|color|off-black",
+      "background": "var:preset|color|off-white"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|default-sans-serif"
+    },
+    "elements": {
+      "button": {
+        "color": {
+          "text": "var:preset|color|off-white",
+          "background": "var:preset|color|primary"
+        }
+      },
+      "caption": {},
+      "cite": {},
+      "heading": {},
+      "h1": {}
+    },
+    "h2": {},
+    "link": {}
+  },
+  "templateParts": [
+    {
+      "area": "header",
+      "name": "header",
+      "title": "Cabeçalho Padrão"
+    },
+    {
+      "area": "footer",
+      "name": "footer",
+      "title": "Rodapé Padrão"
+    }
+  ]
+}
